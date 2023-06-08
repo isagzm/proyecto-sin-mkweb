@@ -19,10 +19,10 @@ const handler = async (event) => {
           return 'No se puede dividir entre cero';
         }
       } 
-      
+
     return {
       statusCode: 200,
-      body: JSON.stringify({ message: calculadora}),
+      body: JSON.stringify({ message: resultado}),
       
     }
   } catch (error) {
